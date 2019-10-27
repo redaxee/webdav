@@ -1,4 +1,3 @@
-clear
 $black = "\e[0;30m";
 $blue = "\e[0;34m";
 $green = "\e[0;32m";
@@ -19,16 +18,21 @@ $nc = "\e[0m";
 
 
 system('clear');
-
-$darkgray # $yellow Coded  	 	: $red  MR-JACK $white
-$darkgray # $yellow YouTube 	: $red  YouTube.com/c/redaxee $white
-$darkgray # $yellow Intsagram   : $red _bocahkurus $green
-$cyan © copyrigt 2019$darkgray
-$cyan Anak bangsa Indonesia
-$cyan 
+echo "$darkgray ╭━━━━━━━╮
+ ┃ ● ══  ┃   🇼 🇪 🇱 🇨 🇴 🇲 🇪  🇹 🇴  🇲 🇾  🇹 🇴 🇴 🇱 🇸 $darkgray
+ ┃███████┃
+ ┃███████┃  $darkgray # $yellow Coded   : $cyan Bartes Dwiky$darkgray
+ ┃███████┃  $darkgray # $yellow Team    : $cyan C L A Y Hacker Team$darkgray
+ ┃███████┃  $darkgray # $red Dilarang untuk merecode! $darkgray
+ ┃███████┃  $darkgray # $yellow Capek Bangzat $yellow Bikinnya$darkgray
+ ┃███████┃  $darkgray # $yellow Mikir Pake Otak!$darkgray
+ ┃███████┃$darkgray
+ ┃███████┃  $cyan © copyrigt 2019$darkgray
+ ┃   ○   ┃  $cyan Anak bangka selatan$darkgray
+ ╰━━━━━━━╯\n";
 echo "$green Deface Webdav$yellow 2019\n";
 echo "$green Update Version$yellow 3.1\n\n";
-echo "$green Otomatic/Manual? (o/m) :$blue ";
+echo "$green Otomatis/Manual? (o/m) :$blue ";
 $pilih = trim(fgets(STDIN));
 if ($pilih == 'o')
 {
@@ -133,16 +137,18 @@ echo "[!] Cek di$blue http://holotropicbreathwork.co.za/access.html\n";
 if ($pilih == "m")
 {
 system('clear');
-
-$darkgray # $yellow Coded  	 	: $red  MR-JACK $white
-$darkgray # $yellow YouTube 	: $red  YouTube.com/c/redaxee $white
-$darkgray # $yellow Intsagram   : $red _bocahkurus $green
-$cyan © copyrigt 2019$darkgray
-$cyan Anak bangsa Indonesia
-$cyan 
-echo "$green Deface Webdav$yellow 2019\n";
-echo "$green Update Version$yellow 3.1\n\n";
-echo "$green Otomatic/Manual? (o/m) :$blue ";
+echo "$darkgray ╭━━━━━━━╮
+ ┃ ● ══  ┃   🇼 🇪 🇱 🇨 🇴 🇲 🇪  🇹 🇴  🇲 🇾  🇹 🇴 🇴 🇱 🇸 $darkgray
+ ┃███████┃
+ ┃███████┃  $darkgray # $yellow Coded   : $cyan Bartes Dwiky$darkgray
+ ┃███████┃  $darkgray # $yellow Team    : $cyan C L A Y Hacker Team$darkgray
+ ┃███████┃  $darkgray # $red Dilarang untuk merecode! $darkgray
+ ┃███████┃  $darkgray # $yellow Capek Bangzat $yellow Bikinnya$darkgray
+ ┃███████┃  $darkgray # $yellow Mikir Pake Otak!$darkgray
+ ┃███████┃$darkgray
+ ┃███████┃  $cyan © copyrigt 2019$darkgray
+ ┃   ○   ┃  $cyan Anak bangka selatan$darkgray
+ ╰━━━━━━━╯\n";
  
 echo "$green Masuk Kebagian Manual\n";
 echo " Note :$red Taruh Script Deface Di Internal\n\n";
